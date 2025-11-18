@@ -1,6 +1,6 @@
+
 import React from "react";
 import NavBar from "./components/NavBar.jsx";
-
 import Footer from "./components/Footer.jsx";
 import LandingPage from "./pages/LandingPage.jsx";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
@@ -8,6 +8,7 @@ import Works from "./pages/Works.jsx";
 import Services from "./pages/Services.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
+import TeamPage from "./pages/TeamPage.jsx"; // Import TeamPage
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/works" element={<Works />} />
         <Route path="/services" element={<Services/>} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/team" element={<TeamPage />} /> {/* Add TeamPage Route */}
         <Route path="/blog" element={<BlogPage/>} />
       </Routes>
       <Footer />

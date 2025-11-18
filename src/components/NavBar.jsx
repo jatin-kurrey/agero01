@@ -30,6 +30,7 @@ const Navbar = () => {
           <li className="hover:text-black transition"><Link to="/works">Works</Link></li>
           <li className="hover:text-black transition"><Link to="/services">Services</Link></li>
           <li className="hover:text-black transition"><Link to="/about">About</Link></li>
+          <li className="hover:text-black transition"><Link to="/team">Team</Link></li>
           <li className="hover:text-black transition"><Link to="/blog">Blog</Link></li>
         </ul>
 
@@ -54,6 +55,7 @@ const Navbar = () => {
             <li><Link to="/works" onClick={() => setMobileOpen(false)}>Works</Link></li>
             <li><Link to="/services" onClick={() => setMobileOpen(false)}>Services</Link></li>
             <li><Link to="/about" onClick={() => setMobileOpen(false)}>About</Link></li>
+            <li><Link to="/team" onClick={() => setMobileOpen(false)}>Team</Link></li>
             <li><Link to="/blog" onClick={() => setMobileOpen(false)}>Blog</Link></li>
           </ul>
 

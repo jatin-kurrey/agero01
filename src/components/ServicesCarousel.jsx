@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Button from "./button";
+import Button from "./Button";
 
 export default function ServicesCarousel() {
   const [activeIndex, setActiveIndex] = useState(1);
