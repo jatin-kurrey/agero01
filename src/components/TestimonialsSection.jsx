@@ -67,12 +67,12 @@ const TestimonialsCarousel = () => {
   }, [currentSlide, testimonials.length]);
 
   return (
-<div className="min-h-screen bg-[#dbdbdb] flex flex-col items-center justify-center px-4 md:px-8 relative overflow-hidden">
+<div className="min-h-screen bg-[#dbdbdb] flex flex-col items-center -mt-24 justify-center px-4 md:px-8 relative overflow-hidden">
 
   {/* Small Subtitle */}
   <p className="text-center text-gray-500 text-xs sm:text-sm md:text-base tracking-wide mb-2 z-10 relative">
     (Why clients love Agero)
-  </p>
+  </p> 
 
   {/* Massive Background Heading */}
   <h1
