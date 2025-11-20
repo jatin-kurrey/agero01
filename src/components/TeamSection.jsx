@@ -26,7 +26,7 @@ style.innerHTML = `
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    border-radius: 1rem; /* rounded-2xl */
+    border-radius: 2rem; /* rounded-2xl */
   }
   .card-back {
     transform: rotateY(180deg);
@@ -58,7 +58,7 @@ const TeamMemberCard = memo(({ member, isFlipped, onClick }) => {
     <div className="perspective h-96 w-80 flex-shrink-0 mx-5 card" onClick={onClick}>
       <div className={`card-inner ${isFlipped ? 'flipped' : ''}`}>
         {/* Front of the Card */}
-        <div className="card-front bg-white shadow-lg overflow-hidden">
+        <div className="card-front bg-white shadow-lg    overflow-hidden">
           <img 
             src={member.imageUrl} 
             alt={member.name} 

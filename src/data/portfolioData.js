@@ -35,22 +35,5 @@ export const portfolio = [
         imageUrl: "src/assets/p1.png",
         projectUrl: "#"
     },
-    {
-        id: 5,
-        title: "SaaS Dashboard",
-        category: "UI/UX Design",
-        description: "Ek complex SaaS application ke liye user-friendly dashboard design.",
-        technologies: ["Sketch", "InVision"],
-        imageUrl: "src/assets/p2.webp",
-        projectUrl: "#"
-    },
-    {
-        id: 6,
-        title: "Social Media Campaign",
-        category: "Branding",
-        description: "Ek engaging social media campaign jisne brand awareness aur reach ko doguna kar diya.",
-        technologies: ["Canva", "Photoshop"],
-        imageUrl: "src/assets/p3.avif",
-        projectUrl: "#"
-    }
+ 
 ];

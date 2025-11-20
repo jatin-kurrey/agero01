@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/agerologo.svg";
+import logo from "../assets/agero.png";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react"; // ICONS
 
@@ -22,7 +22,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <Link to="/">
-          <img src={logo} alt="Agero Logo" className="h-8 w-auto object-contain" />
+          <img src={logo} alt="Agero Logo" className="h-28  w-auto  object-cover" />
         </Link>
 
         {/* Desktop Nav */}

@@ -56,7 +56,7 @@ export default function PortfolioCarousel() {
           {/* Service Card */}
           <div className="w-full max-w-xl sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto">
             <div className="rounded-3xl overflow-hidden">
-              <div className="rounded-3xl overflow-hidden">
+              <div className="rounded-3xl overflow-hidden ">
                 <img
                   src={portfolio[activeIndex].imageUrl}
                   alt={portfolio[activeIndex].title}
