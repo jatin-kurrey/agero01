@@ -1,4 +1,3 @@
-
 import React from "react";
 import NavBar from "./components/NavBar.jsx";
 import Footer from "./components/Footer.jsx";
@@ -10,6 +9,7 @@ import AboutPage from "./pages/AboutPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
 import TeamPage from "./pages/TeamPage.jsx";
 import PortfolioPage from "./pages/PortfolioPage.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
 
 const App = () => {
   return (
@@ -24,6 +24,7 @@ const App = () => {
         <Route path="/team" element={<TeamPage />} />
         <Route path="/blog" element={<BlogPage/>} />
         <Route path="/portfolio" element={<PortfolioPage/>} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
 

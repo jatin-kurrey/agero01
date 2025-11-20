@@ -1,7 +1,6 @@
 import React from "react";
- 
-import ContactSection from "../components/ContactButton.jsx";
-export default function ContactSection() {
+
+export default function ContactPage() {
   return (
     <section className="w-full bg-gray-200 py-20 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14">

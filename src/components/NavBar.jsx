@@ -36,9 +36,11 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop Contact Button */}
-        <button className="hidden md:block bg-[#555] text-white px-6 py-2.5 rounded-full shadow-md hover:bg-black transition-transform hover:scale-105">
-          Contact
-        </button>
+        <Link to="/contact">
+          <button className="hidden md:block bg-[#555] text-white px-6 py-2.5 rounded-full shadow-md hover:bg-black transition-transform hover:scale-105">
+            Contact
+          </button>
+        </Link>
 
         {/* Mobile Hamburger */}
         <button 
@@ -61,9 +63,11 @@ const Navbar = () => {
             <li><Link to="/portfolio" onClick={() => setMobileOpen(false)}>Portfolio</Link></li>
           </ul>
 
-          <button className="mt-5 w-full bg-[#555] text-white py-2.5 rounded-full shadow-md hover:bg-black transition-transform hover:scale-105">
-            Contact
-          </button>
+          <Link to="/contact" onClick={() => setMobileOpen(false)}>
+            <button className="mt-5 w-full bg-[#555] text-white py-2.5 rounded-full shadow-md hover:bg-black transition-transform hover:scale-105">
+              Contact
+            </button>
+          </Link>
         </div>
       )}
     </header>
