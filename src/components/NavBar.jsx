@@ -32,6 +32,7 @@ const Navbar = () => {
           <li className="hover:text-black transition"><Link to="/about">About</Link></li>
           <li className="hover:text-black transition"><Link to="/team">Team</Link></li>
           <li className="hover:text-black transition"><Link to="/blog">Blog</Link></li>
+          <li className="hover:text-black transition"><Link to="/portfolio">Portfolio</Link></li>
         </ul>
 
         {/* Desktop Contact Button */}
@@ -57,6 +58,7 @@ const Navbar = () => {
             <li><Link to="/about" onClick={() => setMobileOpen(false)}>About</Link></li>
             <li><Link to="/team" onClick={() => setMobileOpen(false)}>Team</Link></li>
             <li><Link to="/blog" onClick={() => setMobileOpen(false)}>Blog</Link></li>
+            <li><Link to="/portfolio" onClick={() => setMobileOpen(false)}>Portfolio</Link></li>
           </ul>
 
           <button className="mt-5 w-full bg-[#555] text-white py-2.5 rounded-full shadow-md hover:bg-black transition-transform hover:scale-105">
