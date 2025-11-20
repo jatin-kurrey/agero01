@@ -24,9 +24,8 @@ const About = () => {
 {/* Animated Main Heading */}
 <ScrollWordReveal
   text={
-    `We help fast moving digital startups 
-     launch sharper brands and websites — 
-     with clarity, speed, and no drama.`
+    `We help fast-growing companies build stunning brands and digital products that users love. 
+    `
   }
   className="text-[8vw] md:text-3xl lg:text-5xl font-bold leading-tight text-black max-w-4xl font-sans justify-center"
   dataAos="fade-up"

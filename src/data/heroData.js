@@ -23,9 +23,9 @@ const heroData = {
     ],
     line3: [
       { type: 'text', value: 'based in' },
-      { type: 'text', value: 'London,', className: 'text-gray-900 font-bold' },
+      { type: 'text', value: 'Bhilai ,', className: 'text-gray-900 font-bold' },
       { type: 'image', src: london, alt: 'london' },
-      { type: 'text', value: 'UK' }
+      { type: 'text', value:'(C.G)' }
     ]
   },
   description: "We make it easy for startups to launch, grow, and scale with clean, conversion-focused designs — no delays, no drama.",

@@ -8,9 +8,9 @@ export const founder = {
     { icon: "fab fa-dribbble", url: "#" },
     { icon: "fab fa-instagram", url: "#" },
   ],
-  bio: "Franklin Clinton is a visual designer focused on crafting bold, functional design systems. He works with creative teams and startups to build standout brands and seamless digital experiences. Based in London, he balances clarity with character — and enjoys experimenting with motion design and interactive visuals in his spare time.",
+  bio: " Pushpa Raj is a visual designer who develops strong, functional design systems for businesses and creative teams. He helps startups and organisations establish standout brands and smooth digital experiences. Based in Bhiali, he combines clear thinking with a refined visual style, while continuously experimenting with motion and interactive design.",
   experience: [
-    { role: "Founder at Agero", years: "2024–Now" },
+    { role: "Founder at Appnity", years: "2024–Now" },
     { role: "Brand Designer at Google", years: "2023–2024" },
     { role: "Web Designer at Shopify", years: "2018–2023" },
     { role: "Junior Designer at Meta", years: "2015–2018" },
