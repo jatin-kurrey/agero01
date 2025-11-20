@@ -17,7 +17,7 @@ style.innerHTML = `
     transition: transform 0.7s;
     transform-style: preserve-3d;
   }
-  .card.flipped .card-inner {
+  .card:hover .card-inner {
     transform: rotateY(180deg);
   }
   .card-front, .card-back {
@@ -26,7 +26,7 @@ style.innerHTML = `
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    border-radius: 2rem; /* rounded-2xl */
+    border-radius: 1.5rem; /* rounded-2xl */
   }
   .card-back {
     transform: rotateY(180deg);
@@ -53,12 +53,12 @@ style.innerHTML = `
 `;
 document.head.appendChild(style);
 
-const TeamMemberCard = memo(({ member, isFlipped, onClick }) => {
+const TeamMemberCard = memo(({ member }) => {
   return (
-    <div className="perspective h-96 w-80 flex-shrink-0 mx-5 card" onClick={onClick}>
-      <div className={`card-inner ${isFlipped ? 'flipped' : ''}`}>
+    <div className="perspective h-96 w-80 flex-shrink-0 mx-5 card">
+      <div className='card-inner'>
         {/* Front of the Card */}
-        <div className="card-front bg-white shadow-lg    overflow-hidden">
+        <div className="card-front bg-white shadow-lg overflow-hidden">
           <img 
             src={member.imageUrl} 
             alt={member.name} 
@@ -69,7 +69,6 @@ const TeamMemberCard = memo(({ member, isFlipped, onClick }) => {
             <h3 className="text-2xl font-bold text-white mb-1">{member.name}</h3>
             <p className="text-orange-400 text-md font-semibold">{member.role}</p>
           </div>
-          
         </div>
 
         {/* Back of the Card */}
@@ -96,15 +95,10 @@ const TeamMemberCard = memo(({ member, isFlipped, onClick }) => {
 });
 
 const TeamSection = () => {
-  const [flippedCardId, setFlippedCardId] = useState(null);
 
   useEffect(() => {
     AOS.init({ once: true, duration: 800 });
   }, []);
-
-  const handleCardClick = (id) => {
-    setFlippedCardId(flippedCardId === id ? null : id);
-  };
 
   // Duplicate members for a seamless loop
   const duplicatedMembers = [...teamMembers, ...teamMembers];
@@ -133,8 +127,6 @@ const TeamSection = () => {
             <TeamMemberCard 
               key={`${member.id}-${index}`}
               member={member} 
-              isFlipped={flippedCardId === `${member.id}-${index}`}
-              onClick={() => handleCardClick(`${member.id}-${index}`)}
             />
           ))}
         </div>
