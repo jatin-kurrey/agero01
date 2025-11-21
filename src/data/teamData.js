@@ -1,4 +1,4 @@
-
+import avatar from "../assets/avatar.png";
 export const teamMembers = [
   {
     id: 1,
@@ -17,7 +17,7 @@ export const teamMembers = [
     id: 2,
     name: "Maria Garcia",
     role: "Frontend Developer",
-    imageUrl: "https://framerusercontent.com/images/bS38hI8vA7A8hZ42A2z4gT8hA.png",
+    imageUrl: "https://img.sanishtech.com/u/292e6274c1a4a46e3d0b4594d804fa2f.png",
     bio: "Maria brings designs to life with clean, efficient, and responsive code. She has a passion for web performance and is always exploring new frontend technologies.",
     skills: ["React", "Vue.js", "Tailwind CSS", "JavaScript"],
     socials: [
@@ -29,7 +29,7 @@ export const teamMembers = [
     id: 3,
     name: "James Smith",
     role: "Project Manager",
-    imageUrl: "https://framerusercontent.com/images/5r5Bwn0o4zSOzT3rX4qGRgI6c.png",
+    imageUrl: "https://img.sanishtech.com/u/93d9bc8edb23ac49e4b399ac76819a9e.png",
     bio: "James is the organizational backbone of our team. He ensures that projects are delivered on time and within budget, while maintaining clear communication with clients.",
     skills: ["Agile Methodologies", "Client Relations", "Risk Management", "Jira"],
     socials: [
@@ -40,7 +40,7 @@ export const teamMembers = [
     id: 4,
     name: "Alex Johnson",
     role: "Lead Designer",
-    imageUrl: "https://framerusercontent.com/images/5r5Bwn0o4zSOzT3rX4qGRgI6c.png",
+    imageUrl: "https://img.sanishtech.com/u/b59fc21d4e25d4f0d74c0af380d1d88d.png",
     bio: "Alex is a creative powerhouse, transforming complex ideas into stunning, user-friendly designs. He believes that great design is not just about aesthetics, but also about solving problems.",
     skills: ["UI/UX Design", "Prototyping", "Branding", "Figma"],
     socials: [
@@ -53,7 +53,7 @@ export const teamMembers = [
     id: 5,
     name: "Maria Garcia",
     role: "Frontend Developer",
-    imageUrl: "https://framerusercontent.com/images/bS38hI8vA7A8hZ42A2z4gT8hA.png",
+    imageUrl: "https://img.sanishtech.com/u/292e6274c1a4a46e3d0b4594d804fa2f.png",
     bio: "Maria brings designs to life with clean, efficient, and responsive code. She has a passion for web performance and is always exploring new frontend technologies.",
     skills: ["React", "Vue.js", "Tailwind CSS", "JavaScript"],
     socials: [
@@ -65,7 +65,7 @@ export const teamMembers = [
     id: 6,
     name: "James Smith",
     role: "Project Manager",
-    imageUrl: "https://framerusercontent.com/images/5r5Bwn0o4zSOzT3rX4qGRgI6c.png",
+    imageUrl: "https://img.sanishtech.com/u/292e6274c1a4a46e3d0b4594d804fa2f.png",
     bio: "James is the organizational backbone of our team. He ensures that projects are delivered on time and within budget, while maintaining clear communication with clients.",
     skills: ["Agile Methodologies", "Client Relations", "Risk Management", "Jira"],
     socials: [

@@ -3,6 +3,9 @@ import React, { useState, useEffect, memo } from 'react';
 import { teamMembers } from '../data/teamData.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import avatar from "../assets/avatar.png";
+
+
 
 // Add some CSS for the 3D flip effect and marquee
 const style = document.createElement('style');
