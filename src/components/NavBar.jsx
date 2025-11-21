@@ -9,17 +9,17 @@ const Navbar = () => {
   return (
     <header className="bg-[#f3f3f3] relative pt-8 pb-4">
       {/* Top Badge */}
-<div className="absolute inset-x-0 -top-1 flex justify-center">
-  <div className="bg-[#333] text-white px-5 py-2 rounded-b-2xl flex items-center gap-2 shadow-md whitespace-nowrap">
-    <span className="h-2.5 w-2.5 bg-green-500 rounded-full"></span>
-    <span className="text-sm font-medium">Available for New Projects</span>
-  </div>
-</div>
+      <div className="absolute inset-x-0 -top-1 flex justify-center">
+        <div className="bg-[#333] text-white px-5 py-2 rounded-b-2xl flex items-center gap-2 shadow-md whitespace-nowrap">
+          <span className="h-2.5 w-2.5 bg-green-500 rounded-full"></span>
+          <span className="text-sm font-medium">Available for New Projects</span>
+        </div>
+      </div>
 
 
       {/* Navbar */}
       <nav className="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-10 py-6">
-        
+
         {/* Logo */}
         <Link to="/">
           <img src={logo} alt="Agero Logo" className="h-12  w-auto  object-cover" />
@@ -43,7 +43,7 @@ const Navbar = () => {
         </Link>
 
         {/* Mobile Hamburger */}
-        <button 
+        <button
           className="md:hidden text-black"
           onClick={() => setMobileOpen(!mobileOpen)}
         >

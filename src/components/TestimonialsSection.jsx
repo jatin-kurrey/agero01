@@ -83,7 +83,7 @@ const TestimonialsCarousel = () => {
     bg-clip-text text-transparent opacity-40
     select-none z-0 pointer-events-none"
   >
-    Testimonials
+    ClientLove
   </h1>
 
   {/* Foreground Content */}

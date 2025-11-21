@@ -17,7 +17,7 @@ const About = () => {
         className="text-orange-600 text-2xl md:text-3xl font-normal mb-6 md:mb-8 font-cursive"
         data-aos="fade-right"
       >
-        (hello)
+        (evolove)
       </p>
  
 

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import second from "../assets/second1.jpeg";
 const Section2 = () => {
 
       useEffect(() => {
@@ -21,13 +21,13 @@ const Section2 = () => {
   ];
 
   return (
-    <div className="bg-[#ffffff]   lg:px-2 rounded-2xl">
+    <div className="bg-[#ffffff]   lg:px-2 rounded-2xl width-full">
       {/* 🔹 Top Image Section */}
       <div data-aos="fade-out"  >
         <img
-          src="https://framerusercontent.com/images/dT5S1njJpyHvznBNeTmMAwfBcqQ.png?scale-down-to=2048&width=2848&height=1604"
+          src={second}
           alt="Design Showcase"
-          className="w-full h-auto rounded-t-3xl"
+          className="w-full h-auto rounded-t-3xl "
         />
       </div>
 

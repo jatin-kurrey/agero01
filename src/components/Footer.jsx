@@ -1,5 +1,5 @@
 import React from "react";
-
+import third from "../assets/third3.png";
 export default function AgeroFooter() {
   return (
     <div className="min-h-screen p-4 bg-[#dbdbdb]">
@@ -80,13 +80,25 @@ export default function AgeroFooter() {
             </div>
 
             {/* Logo */}
-<div className=" absolute inset-0  flex justify-center items-end  z-10  mb-4 sm:mb-1 md:mb-28 lg:mb-0">
-  <img src="https://framerusercontent.com/images/sjs3fZE4r5WdP6GdjWJGvK4dPgw.png"alt="Agero Logo"
-      className=" w-[95%]  sm:w-[70%]  md:w-[75%]  lg:w-[80%]  object-contain  rounded-3xl"/>
+<div className="absolute inset-0 flex justify-center items-end z-10 mb-4 sm:mb-1 md:mb-28 lg:mb-0">
+  <img
+    src={third}
+    alt="appnity Logo"
+    className="
+      w-[95%]
+      sm:w-[70%]
+      md:w-[75%]
+      lg:w-[100%]
+      lg:h-[50%]
+      object-cover
+      rounded-3xl
+    "
+  />
 
   {/* Blurry bottom fade */}
-<div className="backdrop-blur-sm absolute bottom-0 left-0 h-5 sm:h-12 md:h-20 lg:h-20 w-full mb-1 sm:mb-1 md:mb-6 lg:mb-0"></div>
+  <div className="backdrop-blur-sm absolute bottom-0 left-0 h-5 sm:h-12 md:h-20 lg:h-20 w-full mb-1 sm:mb-1 md:mb-6 lg:mb-0"></div>
 </div>
+
 
 
           </div>
